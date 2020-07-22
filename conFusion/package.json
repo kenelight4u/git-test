@@ -1,7 +1,7 @@
 {
   "name": "confusion",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is test directory to learn Git and Node",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
