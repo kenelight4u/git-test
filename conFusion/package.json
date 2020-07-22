@@ -1,0 +1,27 @@
+{
+  "name": "confusion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kenelight4u"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "3": "^2.1.0",
+    "-": "0.0.1",
+    "bootstrap": "^4.5.0",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.1"
+  }
+}
