@@ -27,7 +27,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="#" class="navbar-brand"><img src="./img/logo.png" height="30" width="41" alt="logo"></a>
+            <a href="#" class="navbar-brand mr-auto"><img src="./img/logo.png" height="30" width="41" alt="logo"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a href="#" class="nav-link"> <span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -147,10 +147,10 @@
                             <div class="form-group row">
                                 <label for="dateTime" class=" col-12 col-md-2 col-form-label">Date and Time</label>
                                 <div class="col-sm-4">
-                                    <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                                    <input class="form-control" id="date" name="date" onfocus="(this.type='date')" placeholder="Date">
                                 </div>
                                 <div class="col-sm-4">
-                                    <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                                    <input class="form-control" id="time" name="time" onfocus="(this.type='time')" placeholder="Time">
                                 </div>
                             </div>
                             
